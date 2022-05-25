@@ -32,7 +32,7 @@ function App() {
           <Rightbar />
         </Stack>
         <Add />
-        <Box>
+        {/* <Box>
           <Autocomplete
             disablePortal
             id="combo-box-demo"
@@ -40,7 +40,7 @@ function App() {
             sx={{ width: 300 }}
             renderInput={(params) => <TextField {...params} label="Perfil" />}
           />
-        </Box>
+        </Box> */}
       </Box>
     </ThemeProvider>
   );
